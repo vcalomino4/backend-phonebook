@@ -85,5 +85,5 @@ app.post("/api/persons", (req, res) => {
 });
 
 app.listen(process.env.PORT || 3001, () => {
-  res.status(200).end();
+  console.log(`Running on ${process.env.PORT || 3001}`);
 });
